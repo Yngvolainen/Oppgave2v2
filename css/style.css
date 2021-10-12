@@ -1,0 +1,109 @@
+.wrapper {
+    
+}
+
+nav {
+    height: 15vh;
+    padding: 0 3rem;
+    display: flex;
+    /* background: darkgrey; */
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: thin solid black;
+}
+
+.title {
+    font-family: 'Metal Mania', cursive;
+    font-size: 4rem;
+}
+
+.top_logo img {
+    height: 100px;
+}
+
+.searchbar img {
+    height: 30px;
+}
+
+.searchbar input {
+    font-size: 1.2rem;
+}
+
+menu {
+    background-image: url(/assets/burger_menu.png);
+}
+
+/* menu ul {
+    display: none;
+} */
+
+menu ul  {
+    background: rgba(0, 0, 0, 0.527); 
+    position: absolute;
+    display: block;
+}
+
+menu li {
+    list-style: none;
+}
+
+main {
+    overflow: scroll;
+    padding: 2rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5%;
+    background: darkgrey;
+}
+
+.webshop {
+    height: 70vh;
+}
+
+.webshop_items {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    /* overflow-x: scroll; */
+    justify-content: space-between;
+    border: thin solid black;
+    padding: 1rem 2rem;
+    background: white;
+    width: minmax(250px 400px);
+}
+
+.webshop_items h3 {
+    font-size: 1.5rem;
+}
+
+.webshop_items > img {
+    height: 200px;
+    margin: 1rem auto;
+}
+
+.webshop_pricing {
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+}
+
+.webshop_pricing button {
+    background: #fff;
+    border: none;
+}
+
+.webshop_pricing button img {
+    height: 50px;
+    height: 3rem;
+}
+
+.webshop_pricing button img:hover {
+    transform: scale(1.2);
+   
+}
+
+
+
