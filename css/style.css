@@ -93,6 +93,7 @@ main {
 .webshop_pricing button {
     background: #fff;
     border: none;
+    cursor: pointer;
 }
 
 .webshop_pricing button img {
@@ -102,7 +103,6 @@ main {
 
 .webshop_pricing button img:hover {
     transform: scale(1.2);
-   
 }
 
 

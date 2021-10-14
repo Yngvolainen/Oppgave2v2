@@ -38,6 +38,7 @@
     font-size: 1.2rem;
     margin: 0 1rem;
     padding: 0.2rem 0.5rem;
+    cursor: pointer;
 }
 
 .cart_total {
@@ -47,6 +48,7 @@
 
 .empty_cart img {
     height: 50px;
+    cursor: pointer;
 }
 .empty_cart img:hover {
     transform: rotate(180deg);
