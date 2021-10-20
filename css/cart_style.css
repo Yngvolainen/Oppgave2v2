@@ -46,6 +46,10 @@
     border: medium solid red;
 }
 
+.empty_cart {
+    position: relative;
+}
+
 .empty_cart img {
     height: 50px;
     cursor: pointer;
@@ -53,4 +57,12 @@
 .empty_cart img:hover {
     transform: rotate(180deg);
     transition: 500ms;
+}
+
+.items_in_cart {
+    position: absolute;
+    top: -25px;
+    right: 20px;
+    color: red;
+    font-size: 2rem;
 }

@@ -1,15 +1,29 @@
-.wrapper {
-    
-}
-
 nav {
     height: 15vh;
     padding: 0 3rem;
     display: flex;
-    /* background: darkgrey; */
     justify-content: space-between;
     align-items: center;
     border-bottom: thin solid black;
+}
+
+div ul  {
+    background: rgba(0, 0, 0, 0.527); 
+    position: absolute;
+    display: block;
+}
+
+div li {
+    list-style: none;
+}
+
+main {
+    overflow: scroll;
+    padding: 2rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5%;
+    background: darkgrey;
 }
 
 .title {
@@ -29,7 +43,7 @@ nav {
     font-size: 1.2rem;
 }
 
-menu {
+.menu {
     background-image: url(/assets/burger_menu.png);
 }
 
@@ -37,24 +51,6 @@ menu {
     display: none;
 } */
 
-menu ul  {
-    background: rgba(0, 0, 0, 0.527); 
-    position: absolute;
-    display: block;
-}
-
-menu li {
-    list-style: none;
-}
-
-main {
-    overflow: scroll;
-    padding: 2rem 2rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 5%;
-    background: darkgrey;
-}
 
 .webshop {
     height: 70vh;
@@ -64,8 +60,6 @@ main {
     text-align: center;
     display: flex;
     flex-direction: column;
-    /* flex-wrap: nowrap; */
-    /* overflow-x: scroll; */
     justify-content: space-between;
     border: thin solid black;
     padding: 1rem 2rem;
@@ -104,6 +98,3 @@ main {
 .webshop_pricing button img:hover {
     transform: scale(1.2);
 }
-
-
-
